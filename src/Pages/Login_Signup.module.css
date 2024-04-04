@@ -1,0 +1,88 @@
+
+.logo{
+    width: 30px;
+}
+
+.gIcon{
+    width: 20px;
+}
+
+.btn{
+    background-color: rgba(89, 126, 247, 1);
+    width: 200px;
+    height: 40px;
+}
+
+.gIconbgm{
+    background-color: white;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.right{
+    background-image: url('../Images/background.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.left{
+    height: 100vh;
+}
+
+.light{
+    width: 120px;
+    height: 200px;
+    margin-left: 220px;
+    position: absolute;
+}
+
+.man{
+    width: 300px;
+    height: 350px;
+    margin-top: 270px;
+    margin-left: 230px;
+}
+
+.loginContent{
+    margin-top: 150px;
+}
+
+.gButton{
+    display: flex;
+    background-color: rgba(89, 126, 247, 1);
+    color: white;
+    width: 200px;
+}
+
+.signIntext{
+    display: flex;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .man{
+        width: 300px;
+        height: 350px;
+        margin-top: 270px;
+        margin-left: 90px;
+    }
+    .light{
+        width: 120px;
+        height: 200px;
+        margin-left: 220px;
+        position: absolute;
+    }
+    
+}
+
+@media screen and (max-width:767px){
+    .left{
+        background-image: url('../Images/background.png');
+        background-size: cover; 
+    }
+    .right{
+        display: none;
+    }
+}
+

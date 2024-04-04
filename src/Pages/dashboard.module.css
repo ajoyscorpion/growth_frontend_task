@@ -1,0 +1,57 @@
+.logo{
+    width: 30px;
+}
+
+.vline{
+    width: 1px;
+    height: 85vh;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.left{
+    height: 70vh;
+}
+
+.title{
+    width: 250px;
+    height: 40px;
+}
+
+.description{
+    width: 250px;
+    height: 40px;
+}
+
+.add{
+    width: 200px;
+    color: white;
+    border-radius: 0px;
+}
+
+.search{
+    width: 270px;
+    border-radius: 0px;
+}
+
+.filter{
+    width: 110px;
+    border-radius: 0px;
+}
+
+.todolist{
+    margin-top: 100px;
+    border-bottom: 1px solid rgb(0, 0, 0, .3);
+}
+
+  
+@media screen and (max-width: 991px) {
+    .vline {
+        display: none;
+    }
+    .todolist{
+        margin-top: 50px;
+        border-bottom: 1px solid rgb(0, 0, 0, .3);
+    }
+}
+
